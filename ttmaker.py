@@ -49,6 +49,7 @@ def main():
             time = int(sys.argv[3])- 8
             text = sys.argv[4]
             deserialize()
+            table[day][time].clear()
             table[day][time].append(text)
             serialize()
         elif sys.argv[1] == "-d":
