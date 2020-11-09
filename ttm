@@ -3,6 +3,6 @@
 while getopts "s" opt      
 do
     case $opt in
-        s) echo "/home/jan/Documents/python/ttmaker.py -s $OPTARG";;
+        s) /home/jan/Documents/python/ttmaker.py -s $OPTARG;;
     esac
 done
